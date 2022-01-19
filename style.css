@@ -1,0 +1,439 @@
+:root {
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
+
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+}
+
+body, ul, li, a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;  
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Raleway;
+    margin: 10px 0;
+    font-weight: 700; 
+    font-size: 2.5rem; 
+    line-height: 3.5rem;
+}
+
+.header {
+    padding: 50px 50px 20px 50px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 15%;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+/* FIRST SECTION */
+
+.first_section {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.first_left_box {
+    padding: 40px 50px 0 50px; 
+    width: 50%;
+    font-family: Raleway;
+    color: var(--very-dark-blue);
+}
+
+.sign{
+    display: flex;
+}
+
+#email_box {
+    border-radius: 5px;
+    border: 1px solid grey;
+    line-height: 14px;
+    height: 38px;
+    width: 80%;
+}
+
+#email_box:invalid {
+    border-color: red;
+}
+
+.footer_image img {
+    display: block;
+    width: 100%;
+}
+
+#button {
+    background-color: var(--bright-blue);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    display: inline-block;
+    width: 50%;
+    line-height: 14px;
+    margin: 0 15px;
+}
+
+#button:active {
+    background-color: var(--very-dark-blue);
+}
+
+.first_left_box h3 {
+    margin: 20px 0;
+    font-weight: 400;  
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.first_right_box {
+    padding-right: 50px;
+    width: 50%;
+}
+
+.first_illustration {
+    width: 100%;
+}
+
+/* SECOND SECTION */
+
+
+.second_section {
+    display: flex;
+    padding-top: 30px;
+    margin-top: 0;
+    padding-bottom: 5%;
+    background-color: var(--light-grayish-blue);
+}
+
+.second_section h1 {
+    font-weight: 700; 
+    font-size: 2.5rem; 
+    line-height: 3.5rem;
+}
+
+.second_left_box {
+    padding: 0px 50px 0 50px;
+}
+
+.second_left_box h4 {
+    width: 82%;
+}
+
+.fylo {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.fylo li{
+    padding-right: 5px;
+    margin: 0;
+}
+
+.green_fylo {
+    color: var(--moderate-cyan);
+    text-decoration: underline;
+}
+
+.testimonial {
+    background-color: white;
+    border-radius: 10px;
+    padding: 3% 5%;
+    width: 48%;
+}
+
+.testimonial li {
+    font-size: small;
+}
+
+.quotes_img {
+    width: 4%;
+}
+
+.avatar_img {
+    border-radius: 100px;
+    width: 10%;
+    float: left;
+    margin-right: 10px;
+}
+
+.second_right_box {
+    max-width: 40%;
+}
+
+.second_right_box img{
+    width: 100%;
+    padding-top: 8%;
+}
+
+/* THIRD SECTION  */ 
+
+
+.third_section_container {
+    display: flex;
+    background-color: var(--desaturated-blue);
+    padding: 20px 50px 0 50px;
+    color: white;
+    height: 250px;
+    align-items: center;
+}
+
+.third_section_container #email_box {
+    width: 80%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+.third_left_box {
+    width: 50%;
+}
+
+.third_left_box p {
+    width: 85%;
+    margin-left: 0;
+    margin-top: 2%;
+
+}
+.third_right_box {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.down_box {
+    margin: 0;
+    padding: 40px 50px 0 50px;
+    color: white;
+    height: 300px;
+    background-color: var(--very-dark-blue);
+    display: flex;
+    align-items:baseline;
+    justify-content:space-between;
+    padding-top: 8%;
+}
+
+.down_box li {
+    padding: 10px;
+}
+
+.down_box_img {
+    margin-right: 15px;
+}
+
+.white_logo {
+    width: 100%;
+    filter: invert();
+}
+ 
+.fab {
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--white);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.fab:hover {
+    color: var(--bright-blue);
+}
+
+.face {
+    width: 30%;
+}
+
+.icons {
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.icons ul {
+    display: flex;
+    margin-top: 40%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
+
+
+@media (max-width: 800px) {
+
+    .header {
+        padding: 5% 1%;
+        display: flex;
+    }
+
+    .logo {
+        width: 22%;
+    }
+
+    .first_section {
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .first_left_box {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        order: 2;
+    }
+
+    .first_right_box {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        order: 1;
+    }
+
+    .sign {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    #button {
+        width: 82%;
+        margin: 10px auto;
+    }
+
+    .second_section {
+        margin-top: 0;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second_section h1 {
+        text-align: center;
+        font-size: 1.1rem;
+
+    }
+
+    .second_section h4 {
+        font-size: 1rem;
+        font-weight: 400;
+
+    }
+
+    .second_left_box {
+        margin: 0 auto;
+        padding: 0%;
+        order: 2;
+    }
+
+    .second_left_box h4 {
+        width: 100%;
+    }
+
+    .fylo {
+        padding-left: 30%;
+    }
+
+    .testimonial {
+        margin: 0 auto;
+        width: 95%;
+
+    }
+
+    .second_right_box {
+        max-width: 100%;
+        order: 1;
+    }
+
+    .third_section {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .third_section_container {
+        text-align: center;
+        display: block;
+        height: auto;
+        padding: 10%;
+        margin: 0 auto;
+    }
+
+    .third_section_container h1 {
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+
+    .third_left_box {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .third_left_box p {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .third_right_box {
+        width: 100%;
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    .down_box {
+        margin: 0 auto;
+        display: block;
+        height: auto;
+        padding: 10px;
+    }
+
+    .white_logo {
+        width: 50%;
+    }
+
+    .icons {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .icons ul {
+        margin: 0 auto;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .icons li {
+        margin: 0;
+        padding: 0;
+    }
+
+ }

@@ -4,13 +4,11 @@
 
 ![Design preview for the fylo-landing-page-with-two-column-layout-master](./design/desktop-preview.jpg)
 
-![Design preview for the fylo-landing-page-with-two-column-layout-master](./design/mobile-design.jpg)
 ## Overview
 
 ### The challenge
 
 - Build out the project to the designs provided
-
 
 ### Links
 
